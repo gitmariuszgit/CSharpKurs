@@ -10,9 +10,11 @@ namespace Hello
     {
         static void Main(string[] args)
         {
+            ///zmiana dla przykladu
             Console.WriteLine("Witam wszystkich i Ciebie {0}", args[0]);
-            Console.ReadLine();
-            Console.WriteLine();
+            int x;
+            bool wynik= int.TryParse(Console.ReadLine(), out x);
+            Console.ReadKey();
         }
     }
 }
