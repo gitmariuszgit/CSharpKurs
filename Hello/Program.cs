@@ -11,7 +11,7 @@ namespace Hello
         static void Main(string[] args)
         {
             ///zmiana dla przykladu
-            Console.WriteLine("Witam wszystkich i Ciebie {0}", args[0]);
+            Console.WriteLine("Witam wszystkich i Ciebie {0} też", args[0]);
             int x;
             bool wynik= int.TryParse(Console.ReadLine(), out x);
             Console.ReadKey();
